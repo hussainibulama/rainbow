@@ -3,6 +3,12 @@ import {useEffect} from 'react';
 import {getLocales} from 'expo-localization';
 import * as Location from 'expo-location';
 
+{
+  /** 
+If i had the time i would have written test to each individual components of the application
+*/
+}
+
 export default function App() {
   useEffect(() => {
     (async () => {
